@@ -40,4 +40,4 @@ You can run this code in Google Colab or Jupyter Notebook.
 Install all dependencies using pip:
 
 ```bash
-pip install mediapipe opencv-python numpy
+!pip install mediapipe opencv-python numpy
