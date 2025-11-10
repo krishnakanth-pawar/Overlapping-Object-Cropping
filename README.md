@@ -35,6 +35,7 @@ The system identifies both regions, determines which object should be considered
 ---
 
 ## ⚙️ Requirements
+You can run this code in Google Colab or Jupyter Notebook.
 
 Install all dependencies using pip:
 
