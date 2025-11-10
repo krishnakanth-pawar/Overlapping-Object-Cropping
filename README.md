@@ -1,12 +1,10 @@
 # Overlapping Object Cropping
 
-##  Objective
+##  Overview
 This project implements an automated system to **detect and crop the primary object** from images containing **two overlapping objects** — typically a **hand** overlapping a **face**.  
-The system identifies both regions, determines which object should be considered *primary*, and crops that object accurately.
+The system identifies both regions, determines which object should be considered *primary*, and crops that object accurately. Note: Sample images can be used for the test.
 
 ---
-
-##  Approach Overview
 
 ### Step-by-step Pipeline
 1. **Detection**  
@@ -32,6 +30,7 @@ The system identifies both regions, determines which object should be considered
 
 6. **Output Generation**  
    - Saves a visualization overlay (`visual_overlay.jpg`) and the cropped region (`primary_crop.jpg`).
+
 
 ---
 
